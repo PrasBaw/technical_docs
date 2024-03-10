@@ -12,6 +12,11 @@
     //"python.pythonPath": "/home/pras/miniconda3/envs/aiddenv/bin/python"
 }
 
+
+To test file in CMD:
+pytest -v -s filename.py (executes all the function of file)
+pytets -v -s filename.py -k functionname (executes on particular function)
+
 pytest commands
 
 
