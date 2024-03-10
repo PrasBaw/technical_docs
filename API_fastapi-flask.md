@@ -32,10 +32,6 @@ def getEndpoint():
 ============================
 uvicorn main:app --reload
 
-Swagger Docs: http://127.0.0.1:8000/docs
-ReDoc: http://127.0.0.1:8000/redoc
-
-
 Steps for testing:
 --------------------
 
