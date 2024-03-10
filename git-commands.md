@@ -60,3 +60,10 @@
 
 - **Go check current branch name:**
   - git branch --show-current
+
+- **PR Commit messages:**
+  - New feature commit - git commit -m 'feat: storyPVCAID-message' (Will increase a version)
+  - Bug fix commit - git commit -m 'fix: bugPVCAID-message' (Will increase a version)
+  - Comment - git commit -m 'comment: bugPVCAID-message' (Will not increase a version)
+  - Test - git commit -m 'test: bugPVCAID-message' (Will not increase a version)
+  - 
