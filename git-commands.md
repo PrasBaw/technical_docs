@@ -66,4 +66,31 @@
   - Bug fix commit - git commit -m 'fix: bugPVCAID-message' (Will increase a version)
   - Comment - git commit -m 'comment: bugPVCAID-message' (Will not increase a version)
   - Test - git commit -m 'test: bugPVCAID-message' (Will not increase a version)
-  - 
+
+
+ #=================================
+Principles for any git repository
+
+1) Use version control
+2) Use tests
+3) Have good documentation.
+4) Use good structure
+5) Keep root clean
+	README
+	LICENSE
+	requirements.txt (or pipfile)
+	tests/
+	doc/
+	your_project_name
+	Makefile
+	manage.py (Django)
+	.yml
+	.gitignore
+
+
+6) Things to avaoid
+	Circular dependencies
+	Hidden coupling
+	Global state/context
+	Spaghetti
+	Ravioli
